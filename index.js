@@ -14,7 +14,7 @@ function coinflip() {
 
 function tailsNeverFails() {
   let counter = 0;
-  while coinflip() {
+  while (coinflip()) {
     //Tails! Flip again.
     counter++
 
