@@ -10,4 +10,10 @@ function printBadges(employees) {
 
 function tailsNeverFails() {
   return Math.random() >= 0.5;
+
+  while (tailsNeverFails()) {
+    //Tails! Flip again.
+
+    else return "`You got $ tails in a row!`"
+  }
 }
