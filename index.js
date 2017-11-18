@@ -18,7 +18,7 @@ function tailsNeverFails() {
     //Tails! Flip again.
     counter++
 
-    else return "`You got ${counter}} tails in a row!`"
+    else return "`You got ${counter} tails in a row!`"
     //Heads!  Game over.
   }
 }
