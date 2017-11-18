@@ -16,7 +16,6 @@ function tailsNeverFails() {
   let counter = 0;
   while (coinflip()) {
     counter++
-
   }
 
   return "`You got ${counter} tails in a row!`"
