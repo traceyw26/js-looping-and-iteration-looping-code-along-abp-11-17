@@ -13,9 +13,11 @@ function coinflip() {
 }
 
 function tailsNeverFails() {
-  while coinflip() {}
+  while coinflip() {
     //Tails! Flip again.
 
     else return "`You got ${coinflip[i]} tails in a row!`"
+    //Heads!  Game over.
   }
+}
 
