@@ -8,12 +8,14 @@ function printBadges(employees) {
   return employees;
 }
 
-function tailsNeverFails() {
+function coinflip() {
   return Math.random() >= 0.5;
+}
 
-  while (tailsNeverFails()) {
+function tailsNeverFails() {
+  while coinflip() {}
     //Tails! Flip again.
 
-    else return "`You got $ tails in a row!`"
+    else return "`You got ${coinflip[i]} tails in a row!`"
   }
-}
+
