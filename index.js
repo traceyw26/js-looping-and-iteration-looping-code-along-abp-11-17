@@ -7,3 +7,7 @@ function printBadges(employees) {
   }
   return employees;
 }
+
+function tailsNeverFails() {
+  return Math.random() >= 0.5;
+}
